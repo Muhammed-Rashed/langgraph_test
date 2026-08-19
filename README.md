@@ -43,4 +43,26 @@ this block of code contains all necessary imports
 
 - https://www.youtube.com/watch?v=1Q_MDOWaljk <font color="red"> 8 min short explanation good enough to get started </font>
 
--
+- https://www.youtube.com/watch?v=jGg_1h0qzaM <font color="red"> 3 hour in depth explanation </font>
+
+---
+
+## 3- Working Examples with state diagrams
+
+### 3.1- Weather chatbot
+
+just a simple chat bot that tells you the weather thats it
+
+```mermaid
+stateDiagram-v2
+  direction TB
+  message --> start
+  start --> chat_prompt
+  chat_prompt --> conditional_edge
+  conditional_edge --> Tool
+  Tool --> chat_prompt
+  conditional_edge --> end
+  message: message
+  chat_prompt: chat_prompt
+  conditional_edge: conditional_edge
+```
