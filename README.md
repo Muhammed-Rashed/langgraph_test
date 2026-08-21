@@ -53,7 +53,11 @@ this block of code contains all necessary imports
 
 ## 2- Learning
 
-### 2.1- Videos
+### 2.1 - RoadMap
+
+- [Road map to get an understanding of what you need to learn](https://forum.langchain.com/t/can-you-provide-a-learning-roadmap-for-langchain-and-langgraph-suitable-for-beginners/3075/2)
+
+### 2.2- Videos
 
 - [8 min short explanation good enough to get started](https://www.youtube.com/watch?v=1Q_MDOWaljk)
 
@@ -61,7 +65,7 @@ this block of code contains all necessary imports
 
 - [30 min explanation of workflows and patterns](https://www.youtube.com/watch?v=aHCDrAbH_go) **explanation of orchestrator agent at 14:00**
 
-### 2.2- Docs
+### 2.3- Docs
 
 - [workflow, patterns and agents](https://docs.langchain.com/oss/python/langgraph/workflows-agents)
 
